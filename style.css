@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 12%;
+  background-color: #d3dbe2;
+  gap: 43vh;
+  align-items: center;
+  padding-top: 8.5vh;
+}
+
+.right {
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+.left img {
+  height: 3vh;
+}
+.left .moto {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.15vh;
+  color: #282828;
+  rotate: 90deg;
+  letter-spacing: 1.3vh;
+  width: max-content;
+}
+.right .nav {
+  width: 100%;
+  height: 8%;
+  /* background-color: lightcoral; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  z-index: 10000;
+}
+
+.nav p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2vh;
+  font-weight: 600;
+  letter-spacing: 2.025px;
+  cursor: pointer;
+}
+
+.content {
+  height: 92%;
+  width: 100%;
+  display: flex;
+}
+
+.details {
+  position: relative;
+  height: 100%;
+  width: 60%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 11vh;
+  gap: 5vh;
+}
+
+.model {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.model .model-name {
+  text-transform: uppercase;
+  font-size: 20vh;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.model .model-details {
+  margin-top: -10px;
+  font-size: 7vh;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 1vh;
+  text-transform: uppercase;
+}
+
+.details .price p {
+  color: #fff;
+  font-size: 7.9vh;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.details .description p {
+  color: #c2d4e3;
+  font-size: 1.8vh;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  padding-right: 34.5vh;
+  line-height: 4vh;
+}
+.details .description button {
+  cursor: pointer;
+  margin-top: 7vh;
+  color: #171717;
+  font-size: 1.9vh;
+  font-weight: 600;
+  border-radius: 27.273px;
+  background: #cbd6e0;
+  padding: 2vh 3.3vh;
+  border: none;
+  text-transform: uppercase;
+}
+.image-section {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: lightcoral; */
+}
+
+.image-section .shoe {
+  position: absolute;
+  z-index: 999;
+  width: 132vh;
+  left: -60vh;
+  top: -17vh;
+}
+
+.image-section .el-1 {
+  position: absolute;
+  right: 0;
+  top: 14vh;
+  height: 24.5vh;
+  width: 24.5vh;
+  z-index: 11000;
+  border-radius: 50%;
+  border: none;
+  background: rgba(125, 125, 125, 0.085);
+  backdrop-filter: blur(18px);
+}
+
+.image-section .el-2 {
+  position: absolute;
+  top: 46.5vh;
+  right: 36vh;
+  height: 28vh;
+  width: 28vh;
+  z-index: 11000;
+  border-radius: 50%;
+  border: none;
+  background: rgba(125, 125, 125, 0.085);
+  backdrop-filter: blur(18px);
+}
+.details .el-4 {
+  position: absolute;
+  height: 19vh;
+  width: 19vh;
+  right: -4.5vh;
+  top: -2.9vh;
+}
+
+.image-section .elipse3 {
+  top: 7.5vh;
+  left: -11vh;
+  position: absolute;
+  width: 35vh;
+  height: 35vh;
+  border-radius: 50%;
+  border: 0.1px solid #585a5bc7;
+  background: rgba(125, 125, 125, 0.15);
+  backdrop-filter: blur(21px);
+}
