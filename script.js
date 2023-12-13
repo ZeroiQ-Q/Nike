@@ -28,6 +28,16 @@ tl.from(".model p", {
   ease: "easeInOut",
 });
 
+
+tl.from(".details .el-4", {
+  opacity: 0,
+  duration: 0.8,
+    ease: "easeInOut",
+});
+
+
+
+
 tl.from(".description p", {
   y: "100%",
   opacity: 0,
